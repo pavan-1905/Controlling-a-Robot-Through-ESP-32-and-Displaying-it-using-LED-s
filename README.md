@@ -66,8 +66,8 @@ build_flags =
 12. **Open up Terminal and run the following code**
           ```sudo chmod a+rw /dev/ttyUSB0```
 13. **Perform Build, Upload Operations throught your VSCODE.**
-14. ** Disconnect ESP-32 and Connect it to a external Power Source and Check if it connects to the Same Network.**
-15. ** After Ensuring That ESP-32 has Connected, Run "Control.py" On your device and insert commands to move the Robot.**
+14. **Disconnect ESP-32 and Connect it to a external Power Source and Check if it connects to the Same Network.**
+15. **After Ensuring That ESP-32 has Connected, Run "Control.py" On your device and insert commands to move the Robot.**
     
 ## How to Use
 1. **Connect the ESP32 to Wi-Fi:**
