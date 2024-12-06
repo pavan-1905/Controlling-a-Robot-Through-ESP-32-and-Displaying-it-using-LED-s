@@ -32,7 +32,6 @@ This project demonstrates a simple **KeyBoard Controlled Robot** controlled via 
    - Install the **PLATFORMIO IDE** extension.  
    [PLATFORMIO IDE Extension Link](https://platformio.org/platformio-ide)
 3. **Create a new Project through PLATFORMIO Extension Interface**
-   -{Picture}
 4. **Name the project as per the requirement.**
 5. **In boards lookup 'DOIT ESP-32 DEVKIT-V1' and Select Framework to be 'Arduino'.** {Picture}
 6. **Use the Default location unless as per requirement and Click 'FINISH'.** 
@@ -68,7 +67,8 @@ build_flags =
 13. **Perform Build, Upload Operations throught your VSCODE.**
 14. **Disconnect ESP-32 and Connect it to a external Power Source and Check if it connects to the Same Network.**
 15. **After Ensuring That ESP-32 has Connected, Run "Control.py" On your device and insert commands to move the Robot.**
-    
+    **Here is the Circuit Diagram**
+    [image][circuit diagram.png]
 ## How to Use
 1. **Connect the ESP32 to Wi-Fi:**
    - Modify the `ssid` and `password` in the code with your Wi-Fi credentials.
