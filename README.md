@@ -68,7 +68,7 @@ build_flags =
 14. **Disconnect ESP-32 and Connect it to a external Power Source and Check if it connects to the Same Network.**
 15. **After Ensuring That ESP-32 has Connected, Run "Control.py" On your device and insert commands to move the Robot.**
     **Here is the Circuit Diagram**
-    [image][circuit diagram.png]
+    ![image][https://github.com/pavan-1905/Controlling-a-Robot-Through-ESP-32-and-Displaying-it-using-LED-s/blob/master/ESP-32.png]
 ## How to Use
 1. **Connect the ESP32 to Wi-Fi:**
    - Modify the `ssid` and `password` in the code with your Wi-Fi credentials.
