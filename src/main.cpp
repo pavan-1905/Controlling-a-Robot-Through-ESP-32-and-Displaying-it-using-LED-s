@@ -2,7 +2,7 @@
 
 // Replace with your WiFi credentials
 const char* ssid = "Wi_Fi";       // Your WiFi SSID
-const char* password = "";         // Your WiFi password
+const char* password = "";         // Your WiFi password.. Make Sure Your Wifi Password is Blank so that ESP-32 can easily connect.
 
 WiFiServer server(80); // Create a web server on port 80
 
