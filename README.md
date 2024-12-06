@@ -59,6 +59,7 @@ build_flags =
 ```
 
    **NOTE** : **The indentation is the very crucial factor for this step. The indentation of the lines according to the following image.**
+
 9. **Head to src folder and open 'main.cpp' and paste the code present in the code block from the github files.**
 10. **Create a python file 'Control.py' in the project folder and paste the code present in the github files.**
 11. **Connect your 'ESP-32' to your device using a USB-B cable and make sure it is connected properly.**
