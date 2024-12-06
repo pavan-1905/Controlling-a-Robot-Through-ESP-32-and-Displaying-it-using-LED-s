@@ -1,5 +1,5 @@
 # Robot Control Through ESP-32
-
+![image](https://github.com/pavan-1905/Controlling-a-Robot-Through-ESP-32-and-Displaying-it-using-LED-s/blob/master/ESP-32.png)
 This project demonstrates a simple **KeyBoard Controlled Robot** controlled via a web interface. The robot can move forward, backward, turn left, turn right, and stop using a web browser over a Wi-Fi network. This project is built on an **ESP32** board using the **Arduino IDE**.
 ## Note : This Project has been configured using UBUNTU-JammyJellyfish.
 ## Features
@@ -67,8 +67,10 @@ build_flags =
 13. **Perform Build, Upload Operations throught your VSCODE.**
 14. **Disconnect ESP-32 and Connect it to a external Power Source and Check if it connects to the Same Network.**
 15. **After Ensuring That ESP-32 has Connected, Run "Control.py" On your device and insert commands to move the Robot.**
+
     **Here is the Circuit Diagram**
-    ![image][https://github.com/pavan-1905/Controlling-a-Robot-Through-ESP-32-and-Displaying-it-using-LED-s/blob/master/ESP-32.png]
+    ![image](https://github.com/pavan-1905/Controlling-a-Robot-Through-ESP-32-and-Displaying-it-using-LED-s/blob/master/circuit%20diagram.png)
+    
 ## How to Use
 1. **Connect the ESP32 to Wi-Fi:**
    - Modify the `ssid` and `password` in the code with your Wi-Fi credentials.
