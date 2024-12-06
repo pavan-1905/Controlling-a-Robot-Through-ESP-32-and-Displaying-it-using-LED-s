@@ -1,7 +1,7 @@
-# AutoDocking Robot
+# KeyBoard Controlled Robot
 
-This project demonstrates a simple **AutoDocking Robot** controlled via a web interface. The robot can move forward, backward, turn left, turn right, and stop using a web browser over a Wi-Fi network. This project is built on an **ESP32** board using the **Arduino IDE**.
-
+This project demonstrates a simple **KeyBoard Controlled Robot** controlled via a web interface. The robot can move forward, backward, turn left, turn right, and stop using a web browser over a Wi-Fi network. This project is built on an **ESP32** board using the **Arduino IDE**.
+## Note : This Project has been configured using UBUNTU-JammyJellyfish.
 ## Features
 - **Wi-Fi Controlled:** Control the robot remotely through a simple web interface.
 - **Motor Control:** Simulates movement commands such as forward, backward, left turn, right turn, and stop.
@@ -26,6 +26,37 @@ This project demonstrates a simple **AutoDocking Robot** controlled via a web in
   - Pin 2: Left Turn LED
   - Pin 16: Right Turn LED
 
+## Instructions on How to build this project from scratch
+1. **Install and configure VSCode**
+2. **Download Extension "PLATFORMIO"**
+   - Link of "PLATFORMIO" - platformio.platformio-ide
+3. **Create a new Project through PLATFORMIO Extension Interface**
+   -{Picture}
+4. **Name the project as per the requirement.**
+5. **In boards lookup 'DOIT ESP-32 DEVKIT-V1' and Select Framework to be 'Arduino'.** {Picture}
+6. **Use the Default location unless as per requirement and Click 'FINISH'.** 
+7. **In your Project Folder0 look for 'platforn.ini' file and open it.**
+8. **Paste the following code in the folder**
+            [env:esp32doit-devkit-v1]
+            platform = espressif32
+            board = esp32dev
+            framework = arduino
+            upload_port = /dev/ttyUSB0
+            monitor_speed = 115200
+            upload_speed = 115200
+            lib_deps = 
+                https://github.com/micro-ROS/micro_ros_platformio/    
+                WiFi
+                mirs240x/micro_ros_arduino@^2.0.7-humble
+            build_flags = 
+                -D MICROROS_WIFI_TRANSPORT
+   **NOTE** : **The indentation is the very crucial factor for this step. The indentation of the lines according to the following image.**
+9. **Head to src folder and open 'main.cpp' and paste the code present in the code block from the github files.**
+10. **Create a python file 'Control.py' in the project folder and paste the code present in the github files.**
+11. **Connect your 'ESP-32' to your device using a USB-B cable and make sure it is connected properly.**
+12. **Open up Terminal and run the following code**
+          sudo chmod a+rw /dev/ttyUSB0
+    
 ## How to Use
 1. **Connect the ESP32 to Wi-Fi:**
    - Modify the `ssid` and `password` in the code with your Wi-Fi credentials.
