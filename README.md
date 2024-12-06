@@ -1,4 +1,4 @@
-# KeyBoard Controlled Robot
+# Robot Control Through ESP-32
 
 This project demonstrates a simple **KeyBoard Controlled Robot** controlled via a web interface. The robot can move forward, backward, turn left, turn right, and stop using a web browser over a Wi-Fi network. This project is built on an **ESP32** board using the **Arduino IDE**.
 ## Note : This Project has been configured using UBUNTU-JammyJellyfish.
