@@ -37,7 +37,7 @@ This project demonstrates a simple **KeyBoard Controlled Robot** controlled via 
 5. **In boards lookup 'DOIT ESP-32 DEVKIT-V1' and Select Framework to be 'Arduino'.** {Picture}
 6. **Use the Default location unless as per requirement and Click 'FINISH'.** 
 7. **In your Project Folder0 look for 'platforn.ini' file and open it.**
-8. **Paste the following code in the folder**
+8. **Paste the following code in the folder.**
 ### Modify the `platformio.ini` File
 
 In your project folder, locate the **`platformio.ini`** file. Open it and replace the content with the following configuration:
